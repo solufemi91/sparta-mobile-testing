@@ -9,19 +9,7 @@ describe 'Testing the budget app' do
   after(:all) do
     @driver.driver_quit
   end
-  # it "should open the budgetwatch app" do
-  #   find_elements(:id, 'protect.budgetwatch:id/action_settings')[0].displayed?
-  # end
-  # it "should have the budget option on the main landing page" do
-  #   find_elements(:id, 'protect.budgetwatch:id/menu')[0].displayed?
-  # end
-  # it "should access the budget page" do
-  #   # find_elements(:id, '')[0].displayed?
-  #   scroll_to('Budgets').click
-  # end
-  # it "should be able to add a budget" do
-  #   # find_elements(:id, '')[0].displayed?
-  # end
+  
 
   it "should open the budgetwatch app" do
     find_elements(:id, 'protect.budgetwatch:id/action_settings')[0].displayed?
